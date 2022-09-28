@@ -5,6 +5,7 @@ var stage1Operation = function(){
     var rangeElem = document.getElementById('range');
     operation = operationElem.value;
     range = rangeElem.value;
+    console.log(operation, range);
 }
 
 startElem.addEventListener('click', stage1Operation);

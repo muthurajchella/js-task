@@ -1,0 +1,122 @@
+.container{
+    width: auto;
+    height: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.cal{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+.name{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.tamil{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.en{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.maths{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.sc{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.ss{
+    font-family: cursive;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.name input{
+    margin-left: 105px;
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
+.tamil input{
+    margin-left: 107px;
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.en input{
+    margin-left: 87px;
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.maths input{
+    margin-left: 17px;
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.sc input{
+    margin-left: 78px;
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.ss input{
+    margin-left: 0px;
+    border: solid 1px #9f3ec9;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.name input:focus{
+    outline: none;
+}
+
+.tamil input:focus{
+    outline: none;
+}
+
+.en input:focus{
+    outline: none;
+}
+
+.maths input:focus{
+    outline: none;
+}
+
+.sc input:focus{
+    outline: none;
+}
+
+.ss input:focus{
+    outline: none;
+}

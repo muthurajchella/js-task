@@ -19,17 +19,17 @@
     justify-content: space-evenly;
 }
 
-.seleEle1 label{
-    /* border: solid 1px black; */
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: yellow;
+.select1 select{
+    border: solid 1px yellow;
     color: red;
+    font-family: cursive;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px yellow;
+    cursor: pointer;
 }
 
-.seleEle1 input{
-    color: white;
-    cursor: pointer;
+.select1 select:focus{
+    outline: none;
 }
 
 #btn1{
@@ -46,7 +46,7 @@
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5s;
-    margin-left: 43%;
+    margin-left: 48%;
 }
 
 #btn1:hover{
