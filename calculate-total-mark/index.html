@@ -8,36 +8,45 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <section class="cal">
+<section class="cal">
 <div class="container">
+<!--Input Start-->
+<div class="input">
+    <div class="name">Name: <br> <input type="text" placeholder="Enter Your Name" id="name"></div>
 
-    <div class="name">Name: <input type="text" placeholder="Enter Your Name"></div>
+    <div class="tamil">Tamil: <br><input type="text" placeholder="Enter Your Mark" id="tm"></div>
 
-    <div class="tamil">Tamil: <input type="text" placeholder="Enter Your Mark"></div>
+    <div class="en">English: <br><input type="text" placeholder="Enter Your Mark" id="eng"></div>
 
-    <div class="en">English: <input type="text" placeholder="Enter Your Mark"></div>
+    <div class="maths">Mathematics: <br><input type="text" placeholder="Enter Your Mark" id="maths"></div>
 
-    <div class="maths">Mathematics: <input type="text" placeholder="Enter Your Mark"></div>
+    <div class="sc">Sciencs: <br><input type="text" placeholder="Enter Your Mark" id="sc"></div>
 
-    <div class="sc">Sciencs: <input type="text" placeholder="Enter Your Mark"></div>
+    <div class="ss">Social Sciencs: <br><input type="text" placeholder="Enter Your Mark" id="ss"></div>
 
-    <div class="ss">Social Sciencs: <input type="text" placeholder="Enter Your Mark"></div>
+    <button id="entry">Entry Your Details</button>
+</div>
+<!--Input End-->
 
-    <button id="Entry">Entry Your Details</button>
+<!--JS TABLE START-->
+<div class="jstable">
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>TAMIL</th>
+            <th>ENGLISH</th>
+            <th>MATHEMATICS</th>
+            <th>SCIENCS</th>
+            <th>SOCIAL SCIENCS</th>
+            <th>TOTAL</th>
+            <th>RESULT</th>
+        </tr>
+    </table>
+</div>
+<!--JS TABLE END-->
 
 </div>
 </section>
-
-   <table>
-        <tr>
-            <th>Name</th>
-            <th>Tamil</th>
-            <th>English</th>
-            <th>Maths</th>
-            <th>social</th>
-            <th>Sciencs</th>
-        </tr>
-   </table>
 
     <script src="js/style.js"></script>
 </body>
