@@ -159,6 +159,7 @@ button:hover{
 .jstable{
     width: 70%;
     height: auto;
+    /* margin-left: 20px; */
     box-sizing: border-box;
 }
 

@@ -12,17 +12,18 @@ let yourTickets = [];
 let getBtn1 = document.getElementById("btn1");
 let getBtn2 = document.getElementById("btn2");
 
-function bookTicket(){
+function bookTicket(TicketNo){
     let book = parseInt(prompt("Enter You'r Ticket Number"))
     let ticket = moviesTickets.find(function(item, index){
         return item.TicketNo === book;
-    })
-    if(ticket){
-        let tickets = yourTickets.map(function(item, index){
-            if(item.TicketNo == book){
-                item.qty = +1;
+    });
+    if(yourTickets){
+        let tickets = yourTickets.map(function(item){
+            if(item.TicketNo === book){
+                item.qty = item.qty+1;
                 return item; 
-
+            }else{
+                return item;
             }
         })
     }else{
@@ -30,12 +31,10 @@ function bookTicket(){
     }
     ticket.qty = 1;
     yourTickets.push(ticket);
-    console.log(yourTickets)
-}
+    console.log(yourTickets);
+}getBtn1.addEventListener("click", bookTicket);
 
-getBtn1.addEventListener("click", bookTicket);
-
-function result(){
-    // console.log("your Booking Tickets"+ yourTickets)
-}
-getBtn2.addEventListener("click", result)
+// function result(){
+//     console.log("your Booking Tickets"+ yourTickets.value)
+// }
+// getBtn2.addEventListener("click", result)

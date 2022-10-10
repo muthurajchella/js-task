@@ -40,5 +40,7 @@ function displayDetails(){
 
 
 row++;
+
+name.value = ""
 }
 
