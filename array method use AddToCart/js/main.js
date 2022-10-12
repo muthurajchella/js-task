@@ -65,3 +65,5 @@ const decrement = () => {
     });
     console.log("Added Ticket :", addTicket);
 };getBtn4.addEventListener("click", decrement);
+
+console.log("Added Ticket :", addTicket);
