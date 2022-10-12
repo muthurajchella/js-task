@@ -36,7 +36,32 @@ function bookTicket(TicketNo){
     // console.log(yourTickets);
 }getBtn1.addEventListener("click", bookTicket);
 
-function result(){
-    console.log("Your Tickets :",yourTickets)
-}
-getBtn2.addEventListener("click", result);
+const yourTicket = (book) => {
+    console.log("Your Booking Tickets :", yourTickets)
+}; getBtn2.addEventListener("click", yourTicket);
+
+const increment = () => {
+    let book = parseInt(prompt("Enter You'r Ticket Number"))
+    const addTicket = yourTickets.map((map) => {
+        if(map.TicketNo === book){
+            return{
+                ...map,
+                qty: map.qty++,
+            };
+        }else return map;
+    });
+    console.log("Added Ticket :", addTicket);
+};getBtn3.addEventListener("click", increment);
+
+const decrement = () => {
+    let book = parseInt(prompt("Enter You'r Ticket Number"))
+    const addTicket = yourTickets.map((map) => {
+        if(map.TicketNo === book){
+            return{
+                ...map,
+                qty: map.qty--,
+            };
+        }else return map;
+    });
+    console.log("Added Ticket :", addTicket);
+};getBtn4.addEventListener("click", decrement);
