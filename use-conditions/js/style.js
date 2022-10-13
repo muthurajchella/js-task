@@ -64,17 +64,19 @@ let age = parseInt(prompt("Please Enter Your Age"));
     if(age<=18){
         let parentPremission = prompt("yes", "No")
         if(parentPremission == "yes"){
-            console.log("You Allow With You'r Parent Be Safe")
+            console.log("You're Allowed With You'r Parents Be Safe")
         }
         if(parentPremission == "No"){
-            console.log("Your Child So You Not Allow The Ride")
+            console.log("You're Child So You Not Allow The Ride")
         }
     }
-    else if(age>=54){
-        console.log("You Not Allow The Ride Because You So Elder")
+    else if(age>=50){
+        console.log("You're Not Allow The Ride Because You So Elder")
     }
     else{
+        // let a = document.getElementById
         console.log("YOU ALLOW!!! Enjoy Your Ride!!!")
+        // document.write("YOU ALLOW!!! Enjoy Your Ride!!!")
     }
     
    

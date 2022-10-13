@@ -42,5 +42,6 @@ function displayDetails(){
 row++;
 
 name.value = ""
+console.log(cell6);
 }
 
