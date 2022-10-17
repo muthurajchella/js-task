@@ -1,3 +1,8 @@
-for(let i =10 ; i>=1 ; i-- ){
-    console.log("Reverse Oreder :", i)
-}
+
+let  i = 1;
+
+for (i=0; i<=100; i++){
+    if(i%7 === 0){
+        console.log(i);
+    }
+};
