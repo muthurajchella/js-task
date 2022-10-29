@@ -32,7 +32,7 @@
 
 
 let num = 1978;
-let result = 0
+let result = 0;
 while(num>0){
     let rem = num%10;
     num = (num-rem)/10;

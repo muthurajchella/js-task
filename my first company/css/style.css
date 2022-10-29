@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: purple;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: cursive;
+    font-size: 18px;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(56, 2, 56);
+    color: white;
+}
+
+.tableStyle{
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+table, th, td{
+    border: solid 2px white;
+    color: white;
+}
